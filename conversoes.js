@@ -17,3 +17,15 @@ console.log(numero + Number(numeroString)); //ao invés de concatenar, vai fazer
 //ou const numeroString = Number("456") e console.log(numero +numeroString)
 //se a const fosse numeroString = "456a", por exemplo, ia retornar NaN
 
+var respostaDeTudo = 42
+let idade = 29
+const pi = 3.14
+
+{
+    var respostaDeTudo = 3.14
+    let idade = 42
+    const pi = 29
+    console.log(respostaDeTudo, idade, pi)
+
+}
+console.log(respostaDeTudo, idade, pi)
